@@ -41,6 +41,10 @@ body {
   margin: 0 auto;
 }
 
+.hidden {
+  display: none;
+}
+
 /* header section styles  */
 header {
   padding-top: 65px;
@@ -73,6 +77,18 @@ nav .brand-name {
   line-height: 120%;
 }
 
+nav .ham-burger-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .ham-burger-icon .fa-bars {
+  width: 27px;
+  height: 27px;
+  color: rgb(255, 255, 255);
+}
+
 /* responsive styles  */
 /* xs devices styles  */
 @media screen and (max-width: 575.98px) {
@@ -85,6 +101,14 @@ nav .brand-name {
   .container {
     width: 100%;
   }
+}
+
+.navbar {
+  display: none;
+}
+
+nav .hidden {
+  display: block;
 }
 
 /* sm devices styles  */
