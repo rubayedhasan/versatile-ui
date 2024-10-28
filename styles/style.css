@@ -7,6 +7,10 @@
   src: url("../assets/miama-font/Miama.ttf");
 }
 
+.font-maima {
+  font-family: "maima";
+}
+
 /* reset all default styles form all tags   */
 * {
   padding: 0;
@@ -24,11 +28,6 @@ li {
   list-style: none;
 }
 
-img {
-  width: 100%;
-  vertical-align: middle;
-}
-
 body {
   color: rgb(255, 255, 255);
   font-family: "Inter", sans-serif;
@@ -41,8 +40,27 @@ body {
   margin: 0 auto;
 }
 
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 18px 53px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  background-color: inherit;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+.btn-primary:hover {
+  border: 1px solid #e6533c;
+  background-color: #e6533c;
+}
+
 /* header section styles  */
 header {
+  height: 831px;
   padding-top: 65px;
   padding-bottom: 85px;
   background-image: linear-gradient(
@@ -80,14 +98,25 @@ nav .brand-name {
 }
 
 nav .navbar .active {
+  border: 1px solid #e6533c;
   background-color: #e6533c;
   padding: 10px 20px;
   border-radius: 46px;
+}
+nav .navbar .nav-item {
+  transition: all 0.8s;
 }
 
 nav .navbar .nav-link {
   color: rgb(255, 255, 255);
   font-size: 1.15rem;
+}
+
+nav .navbar .nav-item:hover {
+  border: 1px solid #e6533c;
+  background-color: #e6533c;
+  padding: 10px 20px;
+  border-radius: 46px;
 }
 
 nav .ham-burger-icon {
@@ -103,6 +132,51 @@ nav .ham-burger-icon .fa-bars {
 }
 nav .hidden {
   display: none;
+}
+
+/* banner section  */
+#banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35.5px;
+  gap: 30px;
+}
+
+#banner .banner-content,
+#banner .banner-image {
+  width: 45%;
+}
+
+#banner .banner-title {
+  font-size: 5.4rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 31px;
+}
+
+#banner .banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.125rem;
+  line-height: 1.665rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 31px;
+}
+
+#banner .banner-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .banner-image img {
+  width: 387.5px;
+  height: 660px;
+}
+
+#banner .btn-group {
+  display: flex;
+  gap: 20px;
 }
 
 /* responsive styles  */
