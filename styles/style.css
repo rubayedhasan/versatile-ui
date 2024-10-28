@@ -81,13 +81,13 @@ nav .brand-name {
 
 nav .navbar .active {
   background-color: #e6533c;
-  padding: 11.1px 22.2px;
+  padding: 10px 20px;
   border-radius: 46px;
 }
 
 nav .navbar .nav-link {
   color: rgb(255, 255, 255);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 nav .ham-burger-icon {
@@ -168,6 +168,11 @@ nav .hidden {
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .container {
     width: 720px;
+  }
+
+  /* nav section  */
+  nav {
+    flex-direction: column;
   }
 }
 
