@@ -261,7 +261,6 @@ main > section {
 }
 
 /* grow-habits section styles  */
-
 #grow-habits .habit-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -304,6 +303,18 @@ main > section {
   .banner-badge {
     height: 73px;
     width: 156px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    text-align: justify;
+  }
+
+  main > section {
+    margin-top: 66px;
   }
 
   /* header section  */
@@ -390,6 +401,16 @@ main > section {
     font-size: 0.75rem;
     letter-spacing: 0.38px;
     line-height: 1.12rem;
+  }
+
+  /* grow-habits section styles  */
+  #grow-habits .habit-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #grow-habits .card .description {
+    text-align: center;
   }
 }
 
