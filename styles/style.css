@@ -351,8 +351,9 @@ nav .hidden {
 
   /* header section  */
   header {
+    height: auto;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     background-image: linear-gradient(
       0deg,
       rgba(17, 17, 17, 1),
@@ -360,12 +361,85 @@ nav .hidden {
     );
   }
 
+  /* nav section styles  */
   .navbar {
     display: none;
   }
 
   nav .hidden {
     display: block;
+  }
+
+  /* banner section styles  */
+  #banner {
+    flex-direction: column;
+  }
+
+  #banner .banner-content,
+  #banner .banner-image {
+    width: 100%;
+  }
+
+  #banner .banner-title {
+    font-size: 3.25rem;
+  }
+
+  #banner .banner-description {
+    text-align: justify;
+  }
+
+  #banner .btn-group {
+    flex-direction: column;
+  }
+
+  #banner .banner-image {
+    height: 500px;
+    background-size: contain;
+    margin-top: 12px;
+  }
+
+  .banner-badge {
+    height: 73px;
+    width: 156px;
+  }
+
+  #banner .promo-badge {
+    top: 100px;
+    right: 50px;
+  }
+
+  #banner .banner-badge .badge-title {
+    font-size: 1.8rem;
+    letter-spacing: 0.76px;
+    line-height: 1.8rem;
+  }
+  #banner .banner-badge .badge-text {
+    font-size: 0.65rem;
+    letter-spacing: 0.76px;
+    line-height: 0.9rem;
+  }
+
+  #banner .video-badge {
+    gap: 12px;
+    left: 50px;
+    bottom: 120px;
+  }
+
+  #banner .video-badge .fa-play {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+  }
+
+  #banner .banner-badge .video-title {
+    font-size: 1.12rem;
+    line-height: 1.12rem;
+    letter-spacing: 0.23px;
+  }
+
+  #banner .banner-badge .video-text {
+    font-size: 0.75rem;
+    letter-spacing: 0.38px;
+    line-height: 1.12rem;
   }
 }
 
