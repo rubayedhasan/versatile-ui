@@ -51,6 +51,7 @@ body {
   background-color: inherit;
   cursor: pointer;
   transition: all 0.7s;
+  margin-top: 38px;
 }
 
 .btn-primary:hover {
@@ -187,7 +188,6 @@ nav .hidden {
   font-size: 1.125rem;
   line-height: 1.665rem;
   letter-spacing: 0.5px;
-  margin-bottom: 31px;
 }
 
 #banner .banner-image {
@@ -285,6 +285,41 @@ main > section {
 #grow-habits .card .description {
   line-height: 1.3rem;
   margin-top: 10px;
+}
+
+/* run-extra-mile section styles  */
+#run-extra-mile {
+  padding: 33.3px 35.5px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+
+#run-extra-mile .run-containerBox {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#run-extra-mile .run-containerBox .running-content {
+  width: 55%;
+}
+
+#run-extra-mile .running-content .title {
+  width: 65%;
+  text-align: left;
+}
+#run-extra-mile .running-content .description {
+  width: 80%;
+  text-align: left;
+}
+
+#run-extra-mile .run-containerBox .running-image {
+  width: 40%;
+}
+#run-extra-mile .run-containerBox .running-image img {
+  width: 100%;
+  border-radius: 18px;
 }
 
 /* responsive styles  */
