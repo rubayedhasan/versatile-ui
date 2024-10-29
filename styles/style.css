@@ -306,11 +306,11 @@ main > section {
 }
 
 #run-extra-mile .running-content .title {
-  width: 65%;
+  max-width: 65%;
   text-align: left;
 }
 #run-extra-mile .running-content .description {
-  width: 80%;
+  max-width: 80%;
   text-align: left;
 }
 
@@ -448,6 +448,29 @@ main > section {
   #grow-habits .card .description {
     text-align: center;
   }
+
+  /* run-extra-mile section styles  */
+  #run-extra-mile {
+    padding: 30px;
+  }
+
+  #run-extra-mile .run-containerBox {
+    flex-direction: column;
+  }
+
+  #run-extra-mile .run-containerBox .running-content,
+  #run-extra-mile .run-containerBox .running-image {
+    width: 100%;
+  }
+
+  #run-extra-mile .running-content .title {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+  #run-extra-mile .running-content .description {
+    max-width: 100%;
+    text-align: justify;
+  }
 }
 
 /* sm devices styles  */
@@ -570,6 +593,29 @@ main > section {
 
   #grow-habits .card .description {
     text-align: center;
+  }
+
+  /* run-extra-mile section styles  */
+  #run-extra-mile {
+    padding: 30px;
+  }
+
+  #run-extra-mile .run-containerBox {
+    flex-direction: column;
+  }
+
+  #run-extra-mile .run-containerBox .running-content,
+  #run-extra-mile .run-containerBox .running-image {
+    width: 100%;
+  }
+
+  #run-extra-mile .running-content .title {
+    font-size: 2rem;
+    max-width: 100%;
+  }
+  #run-extra-mile .running-content .description {
+    max-width: 100%;
+    text-align: justify;
   }
 }
 
