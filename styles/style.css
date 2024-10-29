@@ -449,6 +449,11 @@ nav .hidden {
     width: 720px;
   }
 
+  /* header section styles  */
+  header {
+    height: auto;
+  }
+
   /* nav section  */
   nav .navbar {
     padding: 8px 22px;
@@ -456,6 +461,20 @@ nav .hidden {
 
   nav .navbar .nav-link {
     font-size: 1rem;
+  }
+
+  /* banner section styles  */
+  #banner {
+    flex-direction: column;
+  }
+
+  #banner .banner-content,
+  #banner .banner-image {
+    width: 100%;
+  }
+
+  #banner .video-badge {
+    left: 50px;
   }
 }
 
