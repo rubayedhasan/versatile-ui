@@ -313,10 +313,6 @@ main > section {
     text-align: justify;
   }
 
-  main > section {
-    margin-top: 66px;
-  }
-
   /* header section  */
   header {
     height: auto;
@@ -403,6 +399,11 @@ main > section {
     line-height: 1.12rem;
   }
 
+  /* main section styles  */
+  main > section {
+    margin-top: 66px;
+  }
+
   /* grow-habits section styles  */
   #grow-habits .habit-cards {
     grid-template-columns: 1fr;
@@ -418,6 +419,14 @@ main > section {
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
   .container {
     width: 540px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    text-align: justify;
   }
 
   /* header section  */
@@ -512,12 +521,31 @@ main > section {
     letter-spacing: 0.38px;
     line-height: 1.12rem;
   }
+
+  /* main section styles  */
+  main > section {
+    margin-top: 66px;
+  }
+
+  /* grow-habits section styles  */
+  #grow-habits .habit-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  #grow-habits .card .description {
+    text-align: center;
+  }
 }
 
 /* md devices styles  */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   .container {
     width: 720px;
+  }
+
+  .title {
+    font-size: 3rem;
   }
 
   /* header section styles  */
@@ -547,12 +575,27 @@ main > section {
   #banner .video-badge {
     left: 50px;
   }
+
+  /* main section styles  */
+  main > section {
+    margin-top: 84px;
+  }
+
+  /* grow-habits section styles  */
+  #grow-habits .habit-cards {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }
 
 /* lg devices styles  */
 @media screen and (min-width: 992px) and (max-width: 1199.98px) {
   .container {
     width: 960px;
+  }
+
+  .title {
+    font-size: 3rem;
   }
 
   /* header section styles  */
@@ -585,6 +628,17 @@ main > section {
 
   #banner .video-badge {
     left: 190px;
+  }
+
+  /* main section styles  */
+  main > section {
+    margin-top: 84px;
+  }
+
+  /* grow-habits section styles  */
+  #grow-habits .habit-cards {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
   }
 }
 
