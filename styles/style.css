@@ -68,6 +68,23 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.title {
+  color: #fff;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: center;
+  font-size: 3.33rem;
+  text-transform: capitalize;
+}
+.description {
+  font-size: 1rem;
+  margin-top: 18px;
+  text-align: center;
+  line-height: 1.665rem;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 /* header section styles  */
 header {
   height: 816px;
@@ -236,6 +253,39 @@ nav .hidden {
 #banner .btn-group {
   display: flex;
   gap: 20px;
+}
+
+/* main section styles  */
+main > section {
+  margin-top: 111px;
+}
+
+/* grow-habits section styles  */
+
+#grow-habits .habit-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 44.4px;
+  margin-top: 64.4px;
+}
+
+#grow-habits .habit-cards .card {
+  width: 256.41px;
+  text-align: center;
+}
+#grow-habits .card .card-image {
+  width: 100%;
+  border-radius: 50%;
+}
+#grow-habits .card .card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 33.3px;
+}
+#grow-habits .card .description {
+  line-height: 1.3rem;
+  margin-top: 10px;
 }
 
 /* responsive styles  */
