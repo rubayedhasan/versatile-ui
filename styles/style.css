@@ -667,6 +667,24 @@ main > section {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
+
+  /* run-extra-mile section styles  */
+  #run-extra-mile {
+    padding: 30px;
+  }
+
+  #run-extra-mile .run-containerBox .running-image img {
+    object-fit: cover;
+    height: 319px;
+  }
+
+  #run-extra-mile .running-content .title {
+    font-size: 2.25rem;
+    max-width: 100%;
+  }
+  #run-extra-mile .running-content .description {
+    max-width: 100%;
+  }
 }
 
 /* lg devices styles  */
@@ -720,6 +738,24 @@ main > section {
   #grow-habits .habit-cards {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
+  }
+
+  /* run-extra-mile section styles  */
+  #run-extra-mile {
+    padding: 30px;
+  }
+
+  #run-extra-mile .run-containerBox .running-image img {
+    object-fit: cover;
+    height: 319px;
+  }
+
+  #run-extra-mile .running-content .title {
+    font-size: 2.25rem;
+    max-width: 100%;
+  }
+  #run-extra-mile .running-content .description {
+    max-width: 100%;
   }
 }
 
