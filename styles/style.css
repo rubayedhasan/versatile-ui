@@ -513,6 +513,24 @@ main > section {
     max-width: 100%;
     text-align: justify;
   }
+
+  /* our team section styles  */
+  #our-team .team-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #our-team .team-gallery figure {
+    width: 100%;
+    height: 100%;
+  }
+
+  #our-team .team-gallery figcaption .trainer-name {
+    font-size: 1.25rem;
+    margin: 0 0 6px 20px;
+  }
+  #our-team .team-gallery figcaption .post {
+    margin: 0 0 18px 20px;
+  }
 }
 
 /* sm devices styles  */
@@ -656,6 +674,24 @@ main > section {
     max-width: 100%;
     text-align: justify;
   }
+
+  /* our team section styles  */
+  #our-team .team-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #our-team .team-gallery figure {
+    width: 100%;
+    height: 100%;
+  }
+
+  #our-team .team-gallery figcaption .trainer-name {
+    font-size: 1.25rem;
+    margin: 0 0 6px 20px;
+  }
+  #our-team .team-gallery figcaption .post {
+    margin: 0 0 18px 20px;
+  }
 }
 
 /* md devices styles  */
@@ -723,6 +759,23 @@ main > section {
   }
   #run-extra-mile .running-content .description {
     max-width: 100%;
+  }
+
+  /* our team section styles  */
+  #our-team .team-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #our-team .team-gallery figure {
+    width: 100%;
+  }
+
+  #our-team .team-gallery figcaption .trainer-name {
+    font-size: 1.25rem;
+    margin: 0 0 6px 20px;
+  }
+  #our-team .team-gallery figcaption .post {
+    margin: 0 0 18px 20px;
   }
 }
 
@@ -796,12 +849,30 @@ main > section {
   #run-extra-mile .running-content .description {
     max-width: 100%;
   }
+
+  /* our team section styles  */
+  #our-team .team-gallery figure {
+    width: 100%;
+  }
+
+  #our-team .team-gallery figcaption .trainer-name {
+    font-size: 1.25rem;
+    margin: 0 0 6px 20px;
+  }
+  #our-team .team-gallery figcaption .post {
+    margin: 0 0 18px 20px;
+  }
 }
 
 /* xl devices styles  */
 @media screen and (min-width: 1200px) and (max-width: 1399.98px) {
   .container {
     width: 1140px;
+  }
+
+  /* our team section styles  */
+  #our-team .team-gallery figure {
+    width: 100%;
   }
 }
 
