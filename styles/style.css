@@ -367,6 +367,23 @@ main > section {
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* footer section styles  */
+footer {
+  margin-top: 98px;
+  padding: 75px 0 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer .copyright {
+  font-size: 1.4rem;
+  padding-top: 38.85px;
+  line-height: 1.665rem;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
 /* responsive styles  */
 /* xs devices styles  */
 @media screen and (max-width: 575.98px) {
