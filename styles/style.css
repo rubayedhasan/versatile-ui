@@ -378,8 +378,6 @@ footer .footer-details {
   display: grid;
   gap: 135px;
   grid-template-columns: 1.8fr repeat(2, 1fr);
-  justify-content: space-between;
-  justify-items: center;
   margin-bottom: 88px;
 }
 
@@ -593,7 +591,6 @@ footer .copyright {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr;
-    justify-items: flex-start;
     margin-bottom: 72px;
   }
 
@@ -795,7 +792,6 @@ footer .copyright {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr;
-    justify-items: flex-start;
     margin-bottom: 72px;
   }
 
@@ -860,6 +856,10 @@ footer .copyright {
     width: 100%;
   }
 
+  #banner .banner-title {
+    font-size: 4.875rem;
+  }
+
   #banner .video-badge {
     left: 50px;
   }
@@ -909,6 +909,61 @@ footer .copyright {
   #our-team .team-gallery figcaption .post {
     margin: 0 0 18px 20px;
   }
+
+  /* footer section styles  */
+  footer {
+    margin-top: 76px;
+    padding-top: 66px;
+    padding-bottom: 40px;
+  }
+
+  .highting-gym {
+    grid-area: highting-gym;
+  }
+
+  .service-1 {
+    grid-area: service-1;
+  }
+
+  .service-2 {
+    grid-area: service-2;
+  }
+
+  footer .footer-details {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "highting-gym highting-gym"
+      "service-1    service-2";
+    margin-bottom: 70px;
+  }
+
+  footer .highting-gym .brand-name {
+    font-size: 4.375rem;
+  }
+
+  footer .highting-gym .description {
+    max-width: 80%;
+  }
+
+  footer .service .get-start {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  footer .links .link-item {
+    margin-bottom: 20px;
+  }
+
+  footer .links .link {
+    font-size: 1.25rem;
+  }
+
+  footer .copyright {
+    font-size: 1.25rem;
+    padding-top: 41px;
+  }
 }
 
 /* lg devices styles  */
@@ -943,6 +998,10 @@ footer .copyright {
   #banner .banner-content,
   #banner .banner-image {
     width: 100%;
+  }
+
+  #banner .brand-name {
+    font-size: 4.875rem;
   }
 
   #banner .promo-badge {
@@ -993,6 +1052,61 @@ footer .copyright {
   }
   #our-team .team-gallery figcaption .post {
     margin: 0 0 18px 20px;
+  }
+
+  /* footer section styles  */
+  footer {
+    margin-top: 76px;
+    padding-top: 66px;
+    padding-bottom: 40px;
+  }
+
+  .highting-gym {
+    grid-area: highting-gym;
+  }
+
+  .service-1 {
+    grid-area: service-1;
+  }
+
+  .service-2 {
+    grid-area: service-2;
+  }
+
+  footer .footer-details {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "highting-gym highting-gym"
+      "service-1    service-2";
+    margin-bottom: 70px;
+  }
+
+  footer .highting-gym .brand-name {
+    font-size: 4.375rem;
+  }
+
+  footer .highting-gym .description {
+    max-width: 80%;
+  }
+
+  footer .service .get-start {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  footer .links .link-item {
+    margin-bottom: 20px;
+  }
+
+  footer .links .link {
+    font-size: 1.25rem;
+  }
+
+  footer .copyright {
+    font-size: 1.25rem;
+    padding-top: 41px;
   }
 }
 
