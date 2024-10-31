@@ -319,6 +319,55 @@ main > section {
   border-radius: 18px;
 }
 
+/* bmi section styles  */
+#bmi .bmi-dp {
+  max-width: 50%;
+  margin: 0 auto 98px;
+}
+
+#bmi .bmi-dp .title,
+#bmi .bmi-dp .description {
+  text-align: left;
+}
+
+#bmi .bmi-calculation-container {
+  padding: 58px 0;
+  background-color: rgba(34, 34, 34, 1);
+}
+
+#bmi .bmi-calculation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 194px;
+}
+#bmi .bmi-calculation .bmi-title {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 15.54px;
+}
+
+#bmi .bmi-calculation .bmi-table-chart {
+  margin-top: 42.2px;
+  border-collapse: collapse;
+}
+
+#bmi .bmi-table-chart th,
+#bmi .bmi-table-chart td {
+  font-size: 1rem;
+  line-height: 120%;
+  padding: 14.43px 20px;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#bmi .bmi-table-chart th {
+  font-size: 1.11rem;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
 /* our team section styles  */
 #our-team .team-gallery {
   gap: 22px;
