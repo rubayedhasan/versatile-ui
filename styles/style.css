@@ -385,6 +385,7 @@ footer .footer-details {
 
 footer .highting-gym .brand-name {
   font-size: 4.85rem;
+  font-style: italic;
 }
 footer .highting-gym .description {
   text-align: left;
@@ -580,6 +581,47 @@ footer .copyright {
   #our-team .team-gallery figcaption .post {
     margin: 0 0 18px 20px;
   }
+
+  /* footer section styles  */
+  footer {
+    margin-top: 66px;
+    padding-top: 44px;
+    padding-bottom: 57px;
+  }
+
+  footer .footer-details {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    justify-items: flex-start;
+    margin-bottom: 72px;
+  }
+
+  footer .highting-gym .brand-name {
+    font-size: 3.375rem;
+  }
+
+  footer .highting-gym .description {
+    text-align: justify;
+  }
+
+  footer .service .get-start {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  footer .links .link-item {
+    margin-bottom: 18px;
+  }
+
+  footer .links .link {
+    font-size: 1.12rem;
+  }
+
+  footer .copyright {
+    font-size: 1.12rem;
+    padding-top: 25px;
+  }
 }
 
 /* sm devices styles  */
@@ -740,6 +782,47 @@ footer .copyright {
   }
   #our-team .team-gallery figcaption .post {
     margin: 0 0 18px 20px;
+  }
+
+  /* footer section styles  */
+  footer {
+    margin-top: 66px;
+    padding-top: 44px;
+    padding-bottom: 57px;
+  }
+
+  footer .footer-details {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr;
+    justify-items: flex-start;
+    margin-bottom: 72px;
+  }
+
+  footer .highting-gym .brand-name {
+    font-size: 4.375rem;
+  }
+
+  footer .highting-gym .description {
+    text-align: justify;
+  }
+
+  footer .service .get-start {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  footer .links .link-item {
+    margin-bottom: 18px;
+  }
+
+  footer .links .link {
+    font-size: 1.12rem;
+  }
+
+  footer .copyright {
+    font-size: 1.12rem;
+    padding-top: 25px;
   }
 }
 
