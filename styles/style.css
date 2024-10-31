@@ -40,6 +40,13 @@ body {
   margin: 0 auto;
 }
 
+.brand-name {
+  color: #e6533c;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+
 .btn-primary {
   color: rgb(255, 255, 255);
   font-size: 1.25rem;
@@ -116,13 +123,6 @@ nav .navbar {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 12px 35px;
   border-radius: 39px;
-}
-
-nav .brand-name {
-  color: #e6533c;
-  font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 120%;
 }
 
 nav .navbar .active {
@@ -372,6 +372,38 @@ footer {
   margin-top: 98px;
   padding: 75px 0 40px;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-details {
+  display: grid;
+  gap: 135px;
+  grid-template-columns: 1.8fr repeat(2, 1fr);
+  justify-content: space-between;
+  justify-items: center;
+  margin-bottom: 88px;
+}
+
+footer .highting-gym .brand-name {
+  font-size: 4.85rem;
+}
+footer .highting-gym .description {
+  text-align: left;
+}
+footer .service .get-start {
+  font-size: 2.22rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 44.4px;
+}
+
+footer .links .link-item {
+  margin-bottom: 22.2px;
+}
+
+footer .links .link {
+  font-size: 1.3rem;
+  line-height: 120%;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 footer .copyright {
