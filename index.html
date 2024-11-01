@@ -178,6 +178,7 @@
         <div class="bmi-calculation-container">
           <div class="container">
             <div class="bmi-calculation">
+              <!-- bmi chart table  -->
               <div class="bmi-chart">
                 <h3 class="bmi-title">BMI Calculator Chart</h3>
                 <table class="bmi-table-chart">
@@ -207,7 +208,76 @@
                   </tbody>
                 </table>
               </div>
-              <div class="bmi-form"></div>
+
+              <!-- bmi calculation form  -->
+              <div class="bmi-calculation-form">
+                <h3 class="bmi-title">Calculate your BMI</h3>
+                <p class="description">
+                  "Calculate your BMI by dividing your weight in kilograms by
+                  your height in meters squared. It's a simple way to assess
+                  your health!"
+                </p>
+
+                <form action="" class="bmi-form">
+                  <!-- height input field  -->
+                  <div class="input-box">
+                    <input
+                      type="text"
+                      name="height"
+                      id=""
+                      placeholder="Height/cm"
+                    />
+                  </div>
+
+                  <!-- weight input field  -->
+                  <div class="input-box">
+                    <input
+                      type="text"
+                      name="weight"
+                      id=""
+                      placeholder="Weight/kg"
+                    />
+                  </div>
+
+                  <!-- age input field  -->
+                  <div class="input-box">
+                    <input type="text" name="age" id="" placeholder="Age" />
+                  </div>
+
+                  <!-- gender selection field  -->
+                  <div class="input-box">
+                    <select name="gender" id="">
+                      <option value="sex">Sex</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
+                  </div>
+
+                  <!-- activities selection field  -->
+                  <div class="input-box activity-box">
+                    <input
+                      type="text"
+                      list="activities"
+                      name=""
+                      id=""
+                      placeholder="Select an activity factor"
+                    />
+                    <datalist id="activities">
+                      <option value="Treadmill running or walking"></option>
+                      <option value="Stationary cycling"></option>
+                      <option value="Rowing machine"></option>
+                      <option value="Elliptical trainer"></option>
+                      <option value="Stair climber"></option>
+                      <option value="Free weights"></option>
+                      <option value="Weight machines"></option>
+                      <option value="Bodyweight exercises"></option>
+                      <option value="Resistance bands"></option>
+                      <option value="High-Intensity Interval Training"></option>
+                    </datalist>
+                  </div>
+                  <input type="submit" value="Calculate" class="btn-primary" />
+                </form>
+              </div>
             </div>
           </div>
         </div>

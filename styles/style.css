@@ -338,9 +338,14 @@ main > section {
 #bmi .bmi-calculation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 194px;
+  gap: 65px;
 }
+
+#bmi .bmi-calculation .bmi-chart,
+#bmi .bmi-calculation .bmi-calculation-form {
+  width: 45%;
+}
+
 #bmi .bmi-calculation .bmi-title {
   font-size: 2rem;
   font-weight: 900;
@@ -366,6 +371,41 @@ main > section {
   font-size: 1.11rem;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+}
+
+#bmi .bmi-calculation-form .bmi-title,
+#bmi .bmi-calculation-form .description {
+  text-align: left;
+}
+
+#bmi .bmi-calculation-form .bmi-form {
+  margin-top: 37.5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13.32px;
+}
+
+#bmi .bmi-form .input-box {
+  width: 48%;
+}
+#bmi .bmi-form .activity-box {
+  width: 99%;
+}
+
+#bmi .bmi-form .input-box input,
+#bmi .bmi-form .input-box select {
+  width: 100%;
+  font-size: 1.11rem;
+  line-height: 1.53rem;
+  border-radius: 8px;
+  padding: 14.43px 22.2px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#bmi .bmi-form .input-box select option {
+  background-color: rgba(17, 17, 17, 1);
 }
 
 /* our team section styles  */
