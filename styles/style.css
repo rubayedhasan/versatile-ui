@@ -793,6 +793,52 @@ footer .copyright {
     text-align: justify;
   }
 
+  /* membership section styles*/
+  #membership .description {
+    max-width: 100%;
+  }
+
+  #membership .membership-cards {
+    gap: 40px;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+
+  #membership .membership-cards .pf-black-membership,
+  #membership .membership-cards .classic-membership {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  #membership .membership-cards .membership-head {
+    font-size: 1.2rem;
+  }
+
+  #membership .pf-black-membership .membership-header {
+    gap: 10px;
+  }
+
+  #membership .pf-black-membership .membership-header .highlight-badge {
+    padding: 6px;
+  }
+
+  #membership .pf-black-membership .membership-header .hot-text {
+    font-size: 0.55rem;
+  }
+
+  #membership .membership-body .membership-description {
+    font-size: 1rem;
+  }
+
+  #membership .membership-footer .btn-secondary {
+    padding: 6px 10px;
+  }
+
+  #membership .compare-btn .btn-primary {
+    font-size: 1rem;
+  }
+
   /* bmi section styles  */
   #bmi .bmi-dp {
     max-width: 100%;
