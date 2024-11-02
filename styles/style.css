@@ -319,6 +319,143 @@ main > section {
   border-radius: 18px;
 }
 
+/* membership section styles*/
+#membership .description {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#membership .membership-cards {
+  margin-top: 70px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#membership .membership-cards .pf-black-membership,
+#membership .membership-cards .classic-membership {
+  width: 380px;
+  height: 350px;
+  border-radius: 12px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 18px;
+}
+
+#membership .membership-cards .pf-black-membership {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(200, 200, 200, 0.5),
+    rgba(255, 255, 255, 0.2),
+    rgba(150, 150, 150, 0.6),
+    rgba(34, 34, 34, 0.4)
+  );
+}
+
+#membership .membership-cards .classic-membership {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(80, 80, 80, 0.6),
+    rgba(20, 20, 20, 0.9),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+#membership .membership-cards .membership-head {
+  color: #e6533c;
+  font-size: 1.5rem;
+  line-height: 120%;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+#membership .pf-black-membership .membership-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#membership .pf-black-membership .membership-header .highlight-badge {
+  padding: 8px 10px;
+  background: #e6533c;
+  border-radius: 5px;
+  border: 1px solid #e6533c;
+}
+
+#membership .pf-black-membership .membership-header .hot-text {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+#membership .membership-body .price-tag-text,
+#membership .membership-body .price-small-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+#membership .membership-body .price-small-text {
+  font-size: 0.85rem;
+}
+
+#membership .membership-body .price {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+#membership .membership-body .bold-price {
+  color: #e6533c;
+  font-size: 2.5rem;
+}
+
+#membership .membership-body .membership-description {
+  font-size: 1.11rem;
+  line-height: 120%;
+  text-align: justify;
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#membership .membership-cards .membership-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+#membership .membership-footer .membership-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+#membership .membership-footer .btn-secondary {
+  font-size: 1rem;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  padding: 10px 15px;
+  border: 1px solid #e6533c;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  background-color: #e6533c;
+}
+
+#membership .compare-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* bmi section styles  */
 #bmi .bmi-dp {
   max-width: 50%;
