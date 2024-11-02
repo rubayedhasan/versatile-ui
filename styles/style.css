@@ -815,10 +815,6 @@ footer .copyright {
     font-size: 1.2rem;
   }
 
-  #membership .pf-black-membership .membership-header {
-    gap: 10px;
-  }
-
   #membership .pf-black-membership .membership-header .highlight-badge {
     padding: 6px;
   }
@@ -1131,10 +1127,6 @@ footer .copyright {
 
   #membership .membership-cards .membership-head {
     font-size: 1.2rem;
-  }
-
-  #membership .pf-black-membership .membership-header {
-    gap: 10px;
   }
 
   #membership .pf-black-membership .membership-header .highlight-badge {
